@@ -1,0 +1,56 @@
+primary_name: "Sijie Zhao"
+secondary_name: ""
+navbar_name: "Sijie Zhao's Home Page"
+
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/nanjing.jpg" alt="Nanjing University" class="inline-badge"/></span> M.S., Nanjing University (2025)'
+
+email: "zsj@smail.nju.edu.cn"
+gscholar: o-GZavgAAAAJ
+# sscholar: Rongsheng-Wang/2261313297
+github: zhaosijie
+# twitter: RongshengWang
+# wechat_qrcode: assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# zhihu: wang-rong-sheng-74
+resume: assets/cv/Resume_RongshengWang.pdf
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio: >-
+  I am Sijie Zhao, I study at Nanjing University and work under the supervision of Prof.<a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof.<a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>. My research interests are AI4Earth, Efficient Earth Data Representation, Universal Earth Foundation Model, and Black-box Model-based Scientific Discovery.
+show_portrait: true
+portrait_url: assets/images/photos/20191006112845_jxdjq.jpg
+portrait_caption: >-
+  我是赵思杰，欢迎访问我的主页~
+
+education:
+- name: Nanjing University
+  logo: assets/images/badges/nanjing.jpg
+  position: M.S. in School of Geography and Ocean Science
+  date: Sep. 2023 - Now
+- name: Nanjing University
+  logo: assets/images/badges/nanjing.jpg
+  position: B.S. in School of Geography and Ocean Science
+  date: Sep. 2019 - Jul. 2023
+  
+experience:
+- name: Shanghai Artificial Intelligence Larboratory
+  logo: assets/images/badges/cuhk-sz.png
+  position: Research Intership (Supervisor is <a href="https://scholar.google.com/citations?hl=zh-CN&user=BEDNoZIAAAAJ">Hao Chen</a>)
+  date: Sep. 2023 - Now
+
+
+
+awards:
+- name: National Scholarship
+  date: 2024
+
+service:
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
+
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  Copyright © 2024 <a href="https://github.com/walking-shadow" target="_blank">Sijie Zhao</a>. All Rights Reserved.
