@@ -38,6 +38,7 @@ education:
 experience:
 - name: Shanghai Artificial Intelligence Laboratory
   logo: assets/images/badges/ailab.jpg
+  dept: AI for Science
   position: Research Internship (Supervisor is <a href="https://scholar.google.com/citations?hl=zh-CN&user=BEDNoZIAAAAJ">Hao Chen</a>)
   date: Sep. 2023 - Now
 
