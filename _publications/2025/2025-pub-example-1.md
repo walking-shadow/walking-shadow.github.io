@@ -9,7 +9,7 @@ pub_date:       "2025"
 abstract: >-
   ZSJ TODO
   
-cover:          assets/images/covers/vegediff.png
+cover:          assets/images/covers/vegediff.jpg
 authors:
   - Sijie Zhao
   - Hao Chen†

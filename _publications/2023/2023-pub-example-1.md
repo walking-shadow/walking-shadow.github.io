@@ -8,7 +8,7 @@ pub_date:       "2023"
 abstract: >-
   ZSJ TODO
 
-cover:          assets/images/covers/SGSLN.png
+cover:          assets/images/covers/sgsln.jpg
 authors:
   - Sijie Zhao
   - Hao Chen†

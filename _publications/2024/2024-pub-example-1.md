@@ -9,7 +9,7 @@ pub_date:       "2024"
 abstract: >-
   ZSJ TODO
   
-cover:          assets/images/covers/rsmamba.png
+cover:          assets/images/covers/rsmamba.jpg
 authors:
   - Sijie Zhao
   - Hao Chen†

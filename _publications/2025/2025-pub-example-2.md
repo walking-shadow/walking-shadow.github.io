@@ -11,7 +11,7 @@ pub_date:       "2025"
 abstract: >-
   ZSJ TODO
   
-cover:          assets/images/covers/wla.png
+cover:          assets/images/covers/wla.jpg
 authors:
   - Sijie Zhao
   - Feng Liu
