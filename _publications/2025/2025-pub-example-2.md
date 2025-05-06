@@ -1,6 +1,6 @@
 ---
 title:          Transforming Weather Data from Pixel to Latent Space
-date:           2025-04-10 00:01:00 +0800
+date:           2025-04-20 00:01:00 +0800
 selected:       true
 pub:            "arXiv"
 # pub_pre:        "Submitted to "

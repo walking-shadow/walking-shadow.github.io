@@ -2,7 +2,7 @@
 title:          RS-Mamba for Large Remote Sensing Image Dense Prediction
 date:           2024-07-18 00:01:00 +0800
 selected:       true
-pub:            "IEEE Transactions on Geoscience and Remote Sensing (TGRS) (SCI Q1 TOP, IF=7.5)"
+pub:            "IEEE Transactions on Geoscience and Remote Sensing (TGRS) (SCI Q1 TOP, IF=8.3)"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2024"
 
