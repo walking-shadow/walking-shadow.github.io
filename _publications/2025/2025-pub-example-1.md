@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2025"
 
 abstract: >-
-  ZSJ TODO
+  This research introduces VegeDiff to forecast future vegetation states by employing a novel diffusion model to probabilistically capture uncertainties in vegetation change. It accurately models dynamic meteorological and static environmental impacts, providing clear, precise predictions, outperforming existing deterministic methods.
   
 cover:          assets/images/covers/vegediff.jpg
 authors:
@@ -19,5 +19,6 @@ authors:
   - Wanli Ouyang
 links:
   Paper: https://arxiv.org/pdf/2407.12592
+  Code: https://github.com/walking-shadow/Official_VegeDiff
   Cite: assets/bibtex/zhao2024vegediff.bib
 ---

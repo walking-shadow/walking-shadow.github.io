@@ -19,7 +19,7 @@ resume: assets/cv/Resume_SijieZhao.pdf
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I am Sijie Zhao, I study at Nanjing University and work under the supervision of Prof.<a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof.<a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>. My research interests are AI4Earth, Efficient Earth Data Representation, Universal Earth Foundation Model, and Black-box Model-based Scientific Discovery.
+  I am Sijie Zhao, I study at Nanjing University and work under the supervision of Prof.<a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof.<a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>. My research field is AI4Earth, mainly including the fields of remote sensing and meteorology. My research interests mainly include Efficient Earth Data Representation, Universal Earth Foundation Model, and Black-box Model-based Scientific Discovery. Feel free to send me an email if you would like to chat with me for any reason.
 show_portrait: true
 portrait_url: assets/images/photos/20191006112845_jxdjq.jpg
 portrait_caption: >-
@@ -28,7 +28,7 @@ portrait_caption: >-
 education:
 - name: Nanjing University
   logo: assets/images/badges/nanjing.jpg
-  position: M.S. in School of Geography and Ocean Science
+  position: M.S. in School of Geography and Ocean Science (Supervised by Prof. <a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof. <a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>)
   date: Sep. 2023 - Now
 - name: Nanjing University
   logo: assets/images/badges/nanjing.jpg
@@ -38,7 +38,7 @@ education:
 experience:
 - name: Shanghai Artificial Intelligence Lab
   logo: assets/images/badges/ailab_logo.jpg
-  position: Research Internship (Supervisor is <a href="https://scholar.google.com/citations?hl=zh-CN&user=BEDNoZIAAAAJ">Hao Chen</a>)
+  position: Research Internship (Supervised by <a href="https://scholar.google.com/citations?hl=zh-CN&user=BEDNoZIAAAAJ">Hao Chen</a>)
   date: Sep. 2023 - Now
 
 
@@ -46,6 +46,10 @@ experience:
 awards:
 - name: National Scholarship
   date: 2024
+- name: National Endeavor Scholarship
+  date: 2022
+- name: Special Award in the 10th National College GIS Application Skills Competition
+  date: 2021
 
 service:
 - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>

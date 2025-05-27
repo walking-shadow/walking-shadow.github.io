@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2024"
 
 abstract: >-
-  ZSJ TODO
+  This research introduces Remote Sensing Mamba (RSM) to efficiently model global context in large remote sensing images. RSM overcomes the quadratic complexity of transformers by using an omnidirectional selective scan, achieving state-of-the-art dense prediction performance on VHR images.
   
 cover:          assets/images/covers/rsmamba.jpg
 authors:
@@ -19,5 +19,6 @@ authors:
   - Wanli Ouyang
 links:
   Paper: https://ieeexplore.ieee.org/document/10589665
+  Code: https://github.com/walking-shadow/Official_Remote_Sensing_Mamba
   Cite: assets/bibtex/zhao2024rs.bib
 ---
