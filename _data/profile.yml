@@ -64,9 +64,10 @@ awards:
 
 
 service:
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>
 - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
-- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
 - name: Reviewer of <a href="https://cvpr.thecvf.com/Conferences/2026">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)</a>
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
