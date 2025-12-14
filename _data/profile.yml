@@ -5,7 +5,7 @@ navbar_name: "Sijie Zhao's Home Page"
 positions:
   - '<span class="no-break"><img src="assets/images/badges/nanjing.jpg" alt="Nanjing University" class="inline-badge"/></span> M.S., Nanjing University (2025)'
 
-email: "zsj@smail.nju.edu.cn"
+email: "zsj2233@smail.nju.edu.cn"
 gscholar: o-GZavgAAAAJ
 # sscholar: Rongsheng-Wang/2261313297
 github: walking-shadow
@@ -47,15 +47,26 @@ experience:
 
 
 awards:
+- name: Dongliang Excellence Scholarship
+  date: 2025
+- name: Outstanding Graduate Student
+  date: 2025
 - name: National Scholarship
   date: 2024
 - name: National Endeavor Scholarship
   date: 2022
 - name: Special Award in the 10th National College GIS Application Skills Competition
   date: 2021
+- name: Third-Class People's Scholarship
+  date: 2021
+- name: Third-Class People's Scholarship
+  date: 2020
+
 
 service:
 - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
+- name: Reviewer of <a href="https://cvpr.thecvf.com/Conferences/2026">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)</a>
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
