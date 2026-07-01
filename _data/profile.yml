@@ -1,39 +1,43 @@
-# primary_name: "Sijie Zhao"
-# secondary_name: ""
-# navbar_name: "Sijie Zhao's Home Page"
+primary_name: "Sijie Zhao"
+secondary_name: ""
+navbar_name: "Sijie Zhao's Home Page"
 
-# positions:
-#   - '<span class="no-break"><img src="assets/images/badges/nanjing.jpg" alt="Nanjing University" class="inline-badge"/></span> M.S., Nanjing University (2025)'
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/nanjing.jpg" alt="Nanjing University" class="inline-badge"/></span> M.S., Nanjing University (2025)'
 
-# email: "zsj2233@smail.nju.edu.cn"
-# gscholar: o-GZavgAAAAJ
-# # sscholar: Rongsheng-Wang/2261313297
-# github: walking-shadow
-# # twitter: RongshengWang
-# # wechat_qrcode: assets/images/etc/wechat.jpg
-# # wechat_prompt: >-
-# #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# # zhihu: wang-rong-sheng-74
+email: "zsj2233@smail.nju.edu.cn"
+gscholar: o-GZavgAAAAJ
+# sscholar: Rongsheng-Wang/2261313297
+github: walking-shadow
+# twitter: RongshengWang
+wechat_qrcode: assets/images/etc/wechat.jpg
+wechat_prompt: >-
+  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# zhihu: wang-rong-sheng-74
 # resume: assets/cv/Resume_SijieZhao.pdf
-# # linkedin: your-linked-in-id
-# # orcid: 0000-0000-0000-0000
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
 
-# short_bio: >-
-#   I am Sijie Zhao, I study at Nanjing University and work under the supervision of Prof.<a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof.<a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>. My research field is AI4Earth, mainly including the fields of remote sensing and meteorology. My research interests mainly include Efficient Earth Data Representation, Universal Earth Foundation Model, and Black-box Model-based Scientific Discovery. Feel free to send me an email if you would like to chat with me for any reason.
-# show_portrait: true
-# portrait_url: assets/images/photos/20191006112845_jxdjq.jpg
-# portrait_caption: >-
-#   I am Sijie Zhao, welcome to my homepage~
+short_bio: >-
+  I am Sijie Zhao. I received my M.S. degree from Nanjing University, where I worked under the supervision of Prof. <a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof. <a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>. I will join the University of Tokyo as a Ph.D. student, advised by Prof. <a href="https://scholar.google.co.jp/citations?user=DJ2KOn8AAAAJ&hl=en">Naoto Yokoya</a>. My current research interests include remote sensing agents, geospatial reasoning, disaster remote sensing, and Earth observation. Feel free to send me an email if you would like to chat with me for any reason.
+show_portrait: true
+portrait_url: assets/images/photos/20191006112845_jxdjq.jpg
+portrait_caption: >-
+  I am Sijie Zhao, welcome to my homepage~
 
-# education:
-# - name: Nanjing University
-#   logo: assets/images/badges/nanjing.jpg
-#   position: M.S. in School of Geography and Ocean Science (Supervised by Prof. <a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof. <a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>)
-#   date: Sep. 2023 - Now
-# - name: Nanjing University
-#   logo: assets/images/badges/nanjing.jpg
-#   position: B.S. in School of Geography and Ocean Science
-#   date: Sep. 2019 - Jul. 2023
+education:
+- name: The University of Tokyo
+  logo: assets/images/badges/Utokyo.jpg
+  position: Ph.D. in Department of Complexity Science and Engineering (Supervised by Prof. <a href="https://scholar.google.co.jp/citations?user=DJ2KOn8AAAAJ&hl=en">Naoto Yokoya</a>)
+  date: Oct. 2026 - Now
+- name: Nanjing University
+  logo: assets/images/badges/nanjing.jpg
+  position: M.S. in School of Geography and Ocean Science (Supervised by Prof. <a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof. <a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>)
+  date: Sep. 2023 - Jul. 2026
+- name: Nanjing University
+  logo: assets/images/badges/nanjing.jpg
+  position: B.S. in School of Geography and Ocean Science
+  date: Sep. 2019 - Jul. 2023
   
 # experience:
 # - name: Shanghai Artificial Intelligence Lab
@@ -46,30 +50,32 @@
 #   date: Jun. 2023 - Sep. 2023
 
 
-# awards:
-# - name: Dongliang Excellence Scholarship
-#   date: 2025
-# - name: Outstanding Graduate Student
-#   date: 2025
-# - name: National Scholarship
-#   date: 2024
-# - name: National Endeavor Scholarship
-#   date: 2022
-# - name: Special Award in the 10th National College GIS Application Skills Competition
-#   date: 2021
-# - name: Third-Class People's Scholarship
-#   date: 2021
-# - name: Third-Class People's Scholarship
-#   date: 2020
+awards:
+- name: Outstanding Graduate Student, Nanjing University
+  date: 2026
+- name: Outstanding Graduate, Nanjing University
+  date: 2026
+- name: Dongliang Excellence Scholarship, Nanjing University
+  date: 2025
+- name: National Scholarship, Nanjing University
+  date: 2024
+- name: National Endeavor Scholarship, Nanjing University
+  date: 2022
+- name: Special Award in the 10th National College GIS Application Skills Competition
+  date: 2021
+- name: Third-Class People's Scholarship, Nanjing University
+  date: 2021
+- name: Third-Class People's Scholarship, Nanjing University
+  date: 2020
 
 
-# service:
-# - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>
-# - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
-# - name: Reviewer of <a href="https://cvpr.thecvf.com/Conferences/2026">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)</a>
-# - name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
+service:
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
+- name: Reviewer of <a href="https://cvpr.thecvf.com/Conferences/2026">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)</a>
+- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
 
-# # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
-# # if you keep the link to the template so that more people can benefit from it. Thanks!
-# footer_text: >-
-#   Copyright © 2024 <a href="https://github.com/walking-shadow" target="_blank">Sijie Zhao</a>. All Rights Reserved.
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  Copyright © 2024 <a href="https://github.com/walking-shadow" target="_blank">Sijie Zhao</a>. All Rights Reserved.
