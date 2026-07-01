@@ -1,12 +1,12 @@
 ---
 title:          Transforming Weather Data from Pixel to Latent Space
-date:           2025-04-20 00:01:00 +0800
+date:           2026-04-20 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
+pub:            "ICML Oral"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
-pub_date:       "2025"
+pub_date:       "2026"
 
 abstract: >-
   This research introduces WLA, a novel deep learning model that compresses massive weather datasets into a compact latent space. This innovation significantly reduces data storage and computational costs, while improving the accuracy and adaptability of weather task models across diverse scenarios.
@@ -25,7 +25,7 @@ authors:
   - Lei Bai
   - Wanli Ouyang
 links:
-  Paper: https://arxiv.org/pdf/2503.06623
+  Paper: https://openreview.net/pdf?id=NlSWKeQPoZ
   Code: https://github.com/walking-shadow/Weather-Latent-Autoencoder
-  Cite: assets/bibtex/zhao2025transforming.bib
+  Cite: assets/bibtex/zhao2026transforming.bib
 ---
