@@ -22,6 +22,8 @@ jobs:
         run: pip install -r google_scholar_crawler/requirements.txt
 
       - name: Crawl Google Scholar
+        # Google Scholar often blocks GitHub runner IPs and scholarly then retries forever.
+        timeout-minutes: 5
         run: python google_scholar_crawler/main.py
 
       - name: Commit results if the citation count changed
