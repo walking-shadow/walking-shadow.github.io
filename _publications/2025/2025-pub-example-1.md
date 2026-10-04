@@ -16,7 +16,6 @@ authors:
   - Xueliang Zhang†
   - Pengfeng Xiao
   - Lei Bai
-  - Wanli Ouyang
 links:
   Paper: https://arxiv.org/pdf/2407.12592
   Code: https://github.com/walking-shadow/Official_VegeDiff

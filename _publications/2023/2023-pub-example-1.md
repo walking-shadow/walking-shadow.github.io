@@ -11,9 +11,9 @@ abstract: >-
 cover:          assets/images/covers/sgsln.jpg
 authors:
   - Sijie Zhao
-  - Hao Chen†
   - Xueliang Zhang†
   - Pengfeng Xiao
+  - Guangjun He
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10296953
   Code: https://github.com/NJU-LHRS/offical-SGSLN

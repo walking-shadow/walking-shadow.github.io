@@ -2,7 +2,7 @@
 title:          Transforming Weather Data from Pixel to Latent Space
 date:           2026-04-20 00:01:00 +0800
 selected:       true
-pub:            "ICML Oral"
+pub:            "ICML 2026 (Oral)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
@@ -23,7 +23,6 @@ authors:
   - Pengfeng Xiao
   - Xinyu Gu
   - Lei Bai
-  - Wanli Ouyang
 links:
   Paper: https://openreview.net/pdf?id=NlSWKeQPoZ
   Code: https://github.com/walking-shadow/Weather-Latent-Autoencoder
