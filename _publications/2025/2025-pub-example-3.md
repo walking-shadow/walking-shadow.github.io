@@ -15,12 +15,13 @@ cover:          assets/images/covers/tssun.jpg
 authors:
   - Sijie Zhao
   - Feng Liu
-  - Enzhuo Zhang
-  - Yiqing Guo
-  - Pengfeng Xiao
-  - Lei Bai
   - Xueliang Zhang†
   - Hao Chen†
+  - Pengfeng Xiao
+  - Junjue Wang
+  - Weihao Xuan
+  - Naoto Yokoya
+  - Lei Bai
 links:
   Paper: https://arxiv.org/pdf/2505.12280
   Code: https://github.com/walking-shadow/Official_TSSUN
