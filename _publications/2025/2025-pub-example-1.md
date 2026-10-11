@@ -1,5 +1,5 @@
 ---
-title:          VegeDiff：Latent Diffusion Model for Geospatial Vegetation Forecasting
+title:          "VegeDiff: Latent Diffusion Model for Geospatial Vegetation Forecasting"
 date:           2025-04-10 00:01:00 +0800
 selected:       true
 pub:            "IEEE Transactions on Geoscience and Remote Sensing (TGRS, SCI Q1 TOP, IF=8.3)"
@@ -17,7 +17,7 @@ authors:
   - Pengfeng Xiao
   - Lei Bai
 links:
-  Paper: https://arxiv.org/pdf/2407.12592
+  Paper: https://ieeexplore.ieee.org/document/10978056
   Code: https://github.com/walking-shadow/Official_VegeDiff
   Cite: assets/bibtex/zhao2024vegediff.bib
 ---
