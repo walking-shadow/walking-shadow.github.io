@@ -1,0 +1,50 @@
+{% assign profile = site.data.profile %}
+<section class="hero">
+    {% include ground_tracks.svg %}
+    <div class="wrap hero-grid">
+        <div>
+            <h1>{{ profile.primary_name }}</h1>
+            <p class="role"><img src="{{ profile.position_logo }}" alt="">{{ profile.position }}</p>
+            {% if profile.tagline %}
+            <p class="tagline">{{ profile.tagline }}</p>
+            {% endif %}
+            <p class="bio">{{ profile.short_bio }}</p>
+            <ul class="contact">
+                <li><a href="mailto:{{ profile.email | encode_email }}"><i class="far fa-envelope" aria-hidden="true"></i>{{ profile.email | replace: "@", " (at) " }}</a></li>
+                {% if profile.gscholar %}
+                <li><a href="https://scholar.google.com/citations?user={{ profile.gscholar }}&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
+                {% endif %}
+                {% if profile.github %}
+                <li><a href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>
+                {% endif %}
+                {% if profile.wechat_qrcode %}
+                <li><a href="{{ profile.wechat_qrcode }}" id="wechat-open"><i class="fab fa-weixin" aria-hidden="true"></i>WeChat</a></li>
+                {% endif %}
+            </ul>
+        </div>
+        {% if profile.show_portrait %}
+        <img class="portrait" src="{{ profile.portrait_url }}" alt="Portrait of {{ profile.primary_name }}" width="176" height="176">
+        {% endif %}
+    </div>
+</section>
+
+{% if profile.wechat_qrcode %}
+<dialog id="wechat" class="modal-box">
+    <img src="{{ profile.wechat_qrcode }}" alt="WeChat QR code" loading="lazy">
+    {% if profile.wechat_prompt %}<p>{{ profile.wechat_prompt }}</p>{% endif %}
+    <form method="dialog"><button class="pub-link">Close</button></form>
+</dialog>
+<script>
+    (function () {
+        var dialog = document.getElementById('wechat');
+        if (!dialog.showModal) return;      // without <dialog> support the link opens the image itself
+        document.getElementById('wechat-open').addEventListener('click', function (e) {
+            e.preventDefault();
+            dialog.showModal();
+        });
+        dialog.addEventListener('click', function (e) {
+            if (e.target === dialog) dialog.close();
+        });
+    })();
+</script>
+{% endif %}

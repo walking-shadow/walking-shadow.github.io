@@ -1,5 +1,7 @@
-pages:
-- name: Home
-  url: ./
+sections:
+- name: News
+  anchor: news
 - name: Publications
-  url: publications
+  anchor: publications
+- name: Background
+  anchor: background

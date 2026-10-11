@@ -1,0 +1,10 @@
+<header class="topbar">
+    <div class="wrap">
+        <a class="brand" href="#top">{{ site.data.profile.navbar_name }}</a>
+        <nav aria-label="Sections">
+            {% for item in site.data.navigation.sections %}
+            <a href="#{{ item.anchor }}">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</header>

@@ -1,9 +1,12 @@
 primary_name: "Sijie Zhao"
 secondary_name: ""
-navbar_name: "Sijie Zhao's Home Page"
+navbar_name: "Sijie Zhao"
+site_title: "Sijie Zhao – Ph.D. Student, The University of Tokyo"
+site_description: "Sijie Zhao is a Ph.D. student at the University of Tokyo working on remote sensing agents and recursive self-improvement."
 
-positions:
-  - '<span class="no-break"><img src="assets/images/badges/Utokyo.jpg" alt="The University of Tokyo" class="inline-badge"/></span> Ph.D. Student, The University of Tokyo'
+position: "Ph.D. student, The University of Tokyo"
+position_logo: assets/images/badges/utokyo.webp
+tagline: "I work on remote sensing agents and recursive self-improvement (RSI)."
 
 email: "sijie2233@g.ecc.u-tokyo.ac.jp"
 gscholar: o-GZavgAAAAJ
@@ -27,17 +30,17 @@ portrait_caption: >-
 
 education:
 - name: The University of Tokyo
-  logo: assets/images/badges/Utokyo.jpg
+  logo: assets/images/badges/utokyo.webp
   position: Ph.D. in Department of Complexity Science and Engineering (Supervised by Prof. <a href="https://scholar.google.co.jp/citations?user=DJ2KOn8AAAAJ&hl=en">Naoto Yokoya</a>)
-  date: Oct. 2026 - Now
+  date: Oct. 2026 – present
 - name: Nanjing University
-  logo: assets/images/badges/nanjing.jpg
+  logo: assets/images/badges/nanjing.webp
   position: M.S. in School of Geography and Ocean Science (Supervised by Prof. <a href="https://scholar.google.com/citations?user=0klWOSEAAAAJ&hl=zh-CN&oi=ao">Xueliang Zhang</a> and Prof. <a href="https://scholar.google.com/citations?user=qBUD3u4AAAAJ&hl=zh-CN&oi=ao">Pengfeng Xiao</a>)
-  date: Sep. 2023 - Jul. 2026
+  date: Sep. 2023 – Jul. 2026
 - name: Nanjing University
-  logo: assets/images/badges/nanjing.jpg
+  logo: assets/images/badges/nanjing.webp
   position: B.S. in School of Geography and Ocean Science
-  date: Sep. 2019 - Jul. 2023
+  date: Sep. 2019 – Jul. 2023
   
 # experience:
 # - name: AGIBot
@@ -60,20 +63,30 @@ awards:
 - name: Special Award in the 10th National College GIS Application Skills Competition
   date: 2021
 - name: Third-Class People's Scholarship, Nanjing University
-  date: 2021
-- name: Third-Class People's Scholarship, Nanjing University
-  date: 2020
+  date: 2020, 2021
 
 
 service:
-- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>
-- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>
-- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)</a>
-- name: Reviewer of <a href="https://cvpr.thecvf.com/">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</a>
-- name: Reviewer of <a href="https://iclr.cc/">International Conference on Learning Representations (ICLR)</a>
-- name: Reviewer of <a href="https://aaai.org/conference/aaai/">AAAI Conference on Artificial Intelligence (AAAI)</a>
+  journals:
+  - name: TCSVT
+    full_name: IEEE Transactions on Circuits and Systems for Video Technology
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
+  - name: TGRS
+    full_name: IEEE Transactions on Geoscience and Remote Sensing
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
+  - name: JSTARS
+    full_name: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443
+  conferences:
+  - name: CVPR
+    full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+    url: https://cvpr.thecvf.com/
+  - name: ICLR
+    full_name: International Conference on Learning Representations
+    url: https://iclr.cc/
+  - name: AAAI
+    full_name: AAAI Conference on Artificial Intelligence
+    url: https://aaai.org/conference/aaai/
 
-# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
-# if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2026 <a href="https://github.com/walking-shadow" target="_blank">Sijie Zhao</a>. All Rights Reserved.
+  © 2026 Sijie Zhao
