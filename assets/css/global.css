@@ -78,7 +78,7 @@ h1 { margin: 0; font: 600 3rem/1.1 var(--serif); letter-spacing: -0.015em; }
 .role { margin-top: 0.6rem; font-size: 1.125rem; color: var(--soft); }
 .role img { height: 1.05em; margin-right: 0.45em; vertical-align: -0.12em; }
 .tagline { margin-top: 1.25rem; font: 400 1.25rem/1.4 var(--serif); text-wrap: balance; }
-.bio { margin-top: 0.9rem; max-width: 38rem; }
+.bio { margin-top: 0.9rem; max-width: 38rem; text-align: justify; hyphens: auto; }
 .contact { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; margin-top: 1.5rem; }
 .contact a { color: var(--ink); font-weight: 600; font-size: 1rem; white-space: nowrap; }
 .contact a:hover { color: var(--sea); }
