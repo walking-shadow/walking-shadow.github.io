@@ -60,7 +60,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .brand { font: 600 1.125rem var(--serif); color: var(--ink); }
 .brand:hover { color: var(--ink); text-decoration: none; }
 .topbar nav a { margin-left: 1.5rem; color: var(--soft); font-size: 0.975rem; }
-.topbar nav a:hover { color: var(--ink); text-decoration: none; }
+.topbar nav a:hover, .topbar nav a.current { color: var(--ink); text-decoration: none; }
+.topbar nav a.current { box-shadow: 0 2px 0 var(--sea); }
 
 /* Hero */
 .hero { position: relative; overflow: hidden; background: var(--wash); border-bottom: 1px solid var(--line); }
@@ -68,17 +69,18 @@ ul { margin: 0; padding: 0; list-style: none; }
     -webkit-mask-image: linear-gradient(to right, transparent, #000 55%); mask-image: linear-gradient(to right, transparent, #000 55%); }
 .tracks .grid line { stroke: var(--sea); stroke-width: 0.5; opacity: 0.10; }
 .tracks .orbit path { fill: none; stroke: var(--sea); stroke-width: 1; opacity: 0.16; }
-.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3rem; align-items: center;
+.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2.5rem; align-items: center;
     padding-top: 3.5rem; padding-bottom: 3.25rem; }
 h1 { margin: 0; font: 600 3rem/1.1 var(--serif); letter-spacing: -0.015em; }
 .role { margin-top: 0.6rem; font-size: 1.125rem; color: var(--soft); }
 .role img { height: 1.05em; margin-right: 0.45em; vertical-align: -0.12em; }
-.tagline { margin-top: 1.25rem; max-width: 36rem; font: 400 1.3125rem/1.4 var(--serif); text-wrap: balance; }
+.tagline { margin-top: 1.25rem; font: 400 1.25rem/1.4 var(--serif); text-wrap: balance; }
 .bio { margin-top: 0.9rem; max-width: 38rem; }
 .contact { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; margin-top: 1.5rem; }
 .contact a { color: var(--ink); font-weight: 600; font-size: 1rem; white-space: nowrap; }
 .contact a:hover { color: var(--sea); }
 .contact i { margin-right: 0.45em; color: var(--sea); }
+.contact .ai { font-size: 1.2em; vertical-align: -0.08em; }
 .portrait { width: 11rem; height: 11rem; object-fit: cover; border-radius: 50%; border: 4px solid var(--paper);
     box-shadow: 0 1px 2px rgba(23, 33, 43, 0.12), 0 10px 28px rgba(13, 90, 122, 0.16); }
 
@@ -107,7 +109,8 @@ h3 { margin: 0; font: 600 1.0625rem/1.3 var(--sans); }
 .pub-authors { margin-top: 0.35rem; font-size: 0.975rem; color: var(--soft); }
 .pub-authors .me { color: var(--ink); font-weight: 700; }
 .pub-venue { margin-top: 0.2rem; font-size: 0.975rem; }
-.tag { display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.5rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+.pub-tags { margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tag { display: inline-block; padding: 0.05rem 0.5rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
     line-height: 1.45; vertical-align: 0.06em; white-space: nowrap; }
 .tag-solid { background: var(--sea); color: #fff; }
 .tag-line { border: 1px solid var(--sea); color: var(--sea); }
@@ -119,7 +122,7 @@ h3 { margin: 0; font: 600 1.0625rem/1.3 var(--sans); }
 .pub-link:hover { border-color: var(--sea); color: var(--sea); text-decoration: none; }
 
 /* Background */
-.two-col { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2.5rem; margin-top: 1.25rem; }
+.two-col { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 2.5rem; margin-top: 1.25rem; }
 .two-col + h3 { margin-top: 1.75rem; }
 .edu li { display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: 0.75rem; padding: 0.7rem 0; border-bottom: 1px solid var(--line); position: relative; }
 .edu li:first-child, .awards li:first-child { margin-top: 0.5rem; border-top: 1px solid var(--line); }
