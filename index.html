@@ -6,12 +6,23 @@ layout: default
 
 <section id="news" class="wrap block">
     <h2>News</h2>
+    {% assign news = site.news | sort: "date" | reverse %}
+    {% assign recent = profile.num_recent_news | default: 5 %}
     <ul class="news">
-        {% assign news = site.news | sort: "date" | reverse %}
-        {% for item in news %}
+        {% for item in news limit: recent %}
         <li><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%b %Y" }}</time><span>{{ item.title }}</span></li>
         {% endfor %}
     </ul>
+    {% if news.size > recent %}
+    <details class="news-more">
+        <summary>Show earlier news</summary>
+        <ul class="news">
+            {% for item in news offset: recent %}
+            <li><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%b %Y" }}</time><span>{{ item.title }}</span></li>
+            {% endfor %}
+        </ul>
+    </details>
+    {% endif %}
 </section>
 
 <section id="publications" class="wrap block">

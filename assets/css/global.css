@@ -29,6 +29,9 @@
     --wash: #f3f6f8;
     --sea: #0d5a7a;
     --sea-deep: #083f56;
+    --bar: rgba(255, 255, 255, 0.94);
+    --on-sea: #ffffff;
+    --ring: #ffffff;
     --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
     --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
@@ -52,7 +55,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* Top bar */
 .topbar {
     position: sticky; top: 0; z-index: 10;
-    background: rgba(255, 255, 255, 0.94);
+    background: var(--bar);
     backdrop-filter: blur(6px);
     border-bottom: 1px solid var(--line);
 }
@@ -81,7 +84,7 @@ h1 { margin: 0; font: 600 3rem/1.1 var(--serif); letter-spacing: -0.015em; }
 .contact a:hover { color: var(--sea); }
 .contact i { margin-right: 0.45em; color: var(--sea); }
 .contact .ai { font-size: 1.2em; vertical-align: -0.08em; }
-.portrait { width: 11rem; height: 11rem; object-fit: cover; border-radius: 50%; border: 4px solid var(--paper);
+.portrait { width: 11rem; height: 11rem; object-fit: cover; border-radius: 50%; border: 4px solid var(--ring);
     box-shadow: 0 1px 2px rgba(23, 33, 43, 0.12), 0 10px 28px rgba(13, 90, 122, 0.16); }
 
 /* Sections */
@@ -97,11 +100,19 @@ h3 { margin: 0; font: 600 1.0625rem/1.3 var(--sans); }
 .news li { display: grid; grid-template-columns: 5.25rem minmax(0, 1fr); gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
 .news time { color: var(--soft); font-size: 0.95rem; font-variant-numeric: tabular-nums; padding-top: 0.05rem; }
 
+.news-more > summary { display: inline-block; margin-top: 0.75rem; padding: 0.18rem 0.7rem; border: 1px solid var(--line);
+    border-radius: 6px; font-size: 0.9rem; font-weight: 600; cursor: pointer; list-style: none; }
+.news-more > summary::-webkit-details-marker { display: none; }
+.news-more > summary:hover { border-color: var(--sea); color: var(--sea); }
+.news-more > summary:focus-visible { outline: 2px solid var(--sea); outline-offset: 2px; }
+.news-more[open] > summary { display: none; }
+.news-more .news { margin-top: 0; border-top: 0; }
+
 /* Publications */
 .pub { display: grid; grid-template-columns: 13.5rem minmax(0, 1fr); gap: 1.5rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
 .legend + .pub { margin-top: 0.75rem; border-top: 1px solid var(--line); }
 .pub-cover { display: flex; align-items: center; justify-content: center; align-self: start; aspect-ratio: 3 / 2;
-    background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; padding: 0.35rem; }
+    background: #ffffff; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; padding: 0.35rem; }
 .pub-cover img { width: 100%; height: 100%; object-fit: contain; }
 .pub-title { font: 600 1.1875rem/1.32 var(--serif); }
 .pub-title a { color: var(--ink); }
@@ -112,7 +123,7 @@ h3 { margin: 0; font: 600 1.0625rem/1.3 var(--sans); }
 .pub-tags { margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .tag { display: inline-block; padding: 0.05rem 0.5rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
     line-height: 1.45; vertical-align: 0.06em; white-space: nowrap; }
-.tag-solid { background: var(--sea); color: #fff; }
+.tag-solid { background: var(--sea); color: var(--on-sea); }
 .tag-line { border: 1px solid var(--sea); color: var(--sea); }
 .pub-summary { margin-top: 0.5rem; font-size: 0.95rem; line-height: 1.5; color: var(--soft); }
 .pub-links { margin-top: 0.7rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
@@ -163,4 +174,23 @@ dialog.modal-box::backdrop { background: rgba(23, 33, 43, 0.5); }
 
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
+}
+
+/* Dark scheme, following the system setting */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ink: #e4e9ed;
+        --soft: #9facb8;
+        --line: #27333d;
+        --paper: #0f161c;
+        --wash: #141d25;
+        --sea: #6fc1e0;
+        --sea-deep: #a3d9ee;
+        --bar: rgba(15, 22, 28, 0.92);
+        --on-sea: #0f161c;
+        --ring: #1d2933;
+    }
+    .edu img, .role img { background: #ffffff; border-radius: 3px; padding: 1px; }
+    .portrait { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45); }
+    dialog.modal-box::backdrop { background: rgba(0, 0, 0, 0.65); }
 }
