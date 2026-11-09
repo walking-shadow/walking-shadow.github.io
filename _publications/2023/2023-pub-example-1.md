@@ -1,6 +1,7 @@
 ---
 title:          "Exchanging dual-encoder–decoder: A new strategy for change detection with semantic guidance and spatial localization"
 date:           2023-10-23 00:01:00 +0800
+published:      false
 selected:       true
 pub:            "IEEE Transactions on Geoscience and Remote Sensing (TGRS)"
 pub_date:       "2023"
